@@ -1,0 +1,41 @@
+body {
+
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+}
+
+.playwrite-be-wal-guide-regular {
+    font-family: "Playwrite BE-WAL Guide";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.box {
+    background-color: rgb(91, 144, 193);
+    padding: 50px;
+
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
